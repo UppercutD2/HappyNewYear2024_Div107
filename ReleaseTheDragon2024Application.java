@@ -15,11 +15,11 @@ public class ReleaseTheDragon2024Application {
     }
     private static class Dragon {
         //Default Dragon Values
-        final Long health = Long.MAX_VALUE;
-        final Long wealth = Long.MAX_VALUE;
-        final Long luck = Long.MAX_VALUE;
-        Boolean THIRD_EYE_IS_ON = Boolean.TRUE;//once is ON, cannot be OFF.
-        private static String fullname = null;//Nobody Knows
+        private final Long health = Long.MAX_VALUE;
+        private final Long wealth = Long.MAX_VALUE;
+        private final Long luck = Long.MAX_VALUE;
+        private Boolean THIRD_EYE_IS_ON = Boolean.TRUE;//once is ON, cannot be OFF.
+        private  String fullname = null;//Nobody Knows
 
         Dragon(String input) {
             this.fullname = input;
